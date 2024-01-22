@@ -23,19 +23,17 @@
     width: 68px;
     position: absolute;
     top: 13.5%;
-    left: 24%;
+    left: 26%;
     right: 30%;
 }
 
 .symbol .name{
-    width: 68px;
+  
     position: absolute;
-    top: 13.5%;
-    left: 30%;
-    right: 30%;
+    top: 14.5%;
+    left: 31%;
+
 }
-
-
 
 .header .logo img{
     width: 65px;
@@ -84,3 +82,22 @@
     color: grey;
 }
 
+
+
+
+
+.wrapper .section {
+    height: 500px;
+    width: 15%;
+    background-color: azure;
+    float: right;
+    border: solid;
+}
+
+.footer {
+    background-color:grey;
+    width: 100%;
+    padding-top: 1%;
+    padding-left:1% ;
+    
+}
