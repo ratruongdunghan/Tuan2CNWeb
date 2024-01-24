@@ -8,13 +8,15 @@
     justify-content: center;
     width: 900px;
     padding: 1%;
+
+
   
 }
 
 .header .background img {
     width: 100%;
     height: 100px;
-
+   
 
 } 
 
@@ -65,34 +67,23 @@
     text-decoration: none;
 }
 
-.container-content .content h3 {
-    color: gray;
-    font-size: larger;
-}
-
-.container-content .content h4 {
-    color: red;
-    font-size: medium;
-    
-}
-
-.container-content .content {
+.container-content {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 19px;
-    color: grey;
 }
 
 
-
-
-
-.wrapper .section {
-    height: 500px;
+.nav {
+    background-color: white;
+    font-size: 18px;
+    margin-top: 15px;
     width: 15%;
-    background-color: azure;
+    height: 619px;
     float: right;
-    border: solid;
+    position: absolute;
+    top: 220px;
+    right: 24.3%;
 }
+
 
 .footer {
     background-color:grey;
