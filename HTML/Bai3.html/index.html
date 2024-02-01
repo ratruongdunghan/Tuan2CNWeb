@@ -10,12 +10,29 @@
     <style>
         body {
             background-image: url(img/background.jpg);
+          /*  width: 100%;
+            height: 100vh;
+            background-size: 100%; */
+     
+            
         }
-        .welcome img {
+
+        .wrapper {
+            max-width: 900px;
+            margin: auto;
+            position: absolute;
+            top: 100px;
+            left: 550px;
             display: flex;
             justify-content: center;
-
+        
+    
         }
+
+        .center .welcome img {
+            
+        }
+       
     </style>
 
 
@@ -25,14 +42,19 @@
 <body>
     <img src="img/background.jpg" alt="">
     <div class="wrapper">
-        <div class="background">
+        <div class="center">
+
+
+            <div class="welcome">
+                <img src="img/salogo.jpg" alt="">
+            </div>
+            <div class="picture">
+                <a href="Home.html">
+                    <img style="position: absolute; right: 43px;" src="img/Siggie.jpg" alt="">
+                </a>
+            </div>
 
         </div>
-
-        <div class="welcome">
-            <img src="img/salogo.jpg" alt="">
-        </div>
-
     </div>
 
 </body>

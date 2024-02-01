@@ -67,8 +67,16 @@
     text-decoration: none;
 }
 
-.container-content {
+.container-content{
     font-family: 'Times New Roman', Times, serif;
+  
+}
+
+ .content {
+    display: inline;
+    display: flex;
+    margin-bottom: 8%;
+
 }
 
 
@@ -76,8 +84,8 @@
     background-color: white;
     font-size: 18px;
     margin-top: 15px;
-    width: 15%;
-    height: 619px;
+    width: 13%;
+    height: 500px;
     float: right;
     position: absolute;
     top: 220px;
